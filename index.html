@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>ZEPHYR WEBSITE</title>
+    <link rel="stylesheet" href="style.css">
+    <<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+</head>
+    <body>
+    <section class="header">
+        <nav>
+        <a href="index.html"><img src="images/logggo.png"></a>
+        <div class="nav-links" id="navLinks">
+        <i class="fa fa-times" onclick="hideMenu()"></i>
+        <ul>
+        <li><a href="#"data-after="HOME">HOME</a></li>
+        <li><a href="#"data-after="Handicraft">SERVICES</a></li>
+        <li><a href="#"data-after="gallery">GALLERY</a></li>
+        <li><a href="testimonials">FEEDBACK</a></li>
+        <li><a href="contact">CONTACT</a></li>
+        </ul>    
+        </div> 
+        <i class="fa fa-bars" onclick="showMeny()">
+            </i>
+        </nav>
+        <div class="text-box">
+        <h1>ZEPHYR</h1>
+        <p> CUSTOMIZED GIFTS FOR YOUR LOVED ONES BY LITTLE CRAFT MAKER</p>
+        <a href="" class="hero-btn">visit us to know more</a>
+        </div>
+        </section>
+        
+        
+        
+        
+        <!-------Handicrafts--------->
+             <section class="Handicraft">
+        <h1> OUR SERVICES </h1>
+        <p> Handmade gifts are made with love and always carry a personalised touch; they’re also a great option for the person who has everything!</p>
+        <div class="row">
+        <div class="handicraft-col">
+        <h3>HAMPER</h3>
+            <p>Hampers are gifts suitable to any occasion and are usually hand made with a particular recipient in mind.We also customize our hampers by filling with the things recipient loves the most plus your gift</p>
+        </div> 
+             <div class="handicraft-col">
+        <h3>SCRAPBOOK</h3>
+            <p>Scrapbooks are a beautiful gift to gift someone. They contain photos and stories of your loved ones and the time you spent together. Photos and writing of your own can be included along with your other ideas for your scrapbook.</p>
+        </div>  <div class="handicraft-col">
+        <h3>CRAFT THINGS</h3>
+            <p>Craft papers are also available for you to make your gifts for your loved ones.</p>
+        </div> 
+                </div>
+        </section>
+        
+        
+        <!------------gallery----------->
+        <section class="gallery">
+        <h1> OUR GALLERY </h1>
+        <p> This is a collection of our works so far. For more collection visit our indtagram page</p>
+        <div class="row">
+            <div class="handicraft-col">
+            <img src="images/img 1.jpg">
+            <div class="layer">
+            <h3> SCRAPBOOK </h3>    
+            </div>
+            </div>
+             <div class="handicraft-col">
+            <img src="images/img%209.jpg">
+            <div class="layer">
+            <h3> HAMPER </h3>    
+            </div>
+            </div>
+             <div class="handicraft-col">
+            <img src="images/img%206.jpg">
+            <div class="layer">
+            <h3> CRAFT ITEMS </h3>    
+            </div>
+            </div>
+            </div>
+            
+            
+        </section>
+        
+        
+        
+        <!-----------testimonials---------->
+        <section class="testimonials">
+        <h1> FEEDBACK </h1>
+        <h2> WHAT OUR CLIENTS SAY </h2>
+        <p> These are the some of the feedbacks of our happy clients</p>
+            <div class="row">
+            <div class="testimonial-col">
+            <img src="images/nesri.jpg">    
+           <div>
+           <p> The scrpabook I recieved was beautiful.They done a good job.</p>
+           <h3> NESRIN KS</h3>
+           </div>
+           </div>
+                <div class="testimonial-col">
+            <img src="images/flower.jpg">    
+           <div>
+           <p> It was so beautiful and so aesthetically made. My friend loved it.</p>
+           <h3> AFROOZE NIZAR </h3>
+           </div>
+           </div>
+         </div>
+            
+     </section>
+        
+<!-------------contact--------->
+        
+        <section class="contact">
+        <div class="row">
+            <div class="contact-col">
+            <h2>PHONE</h2>
+            <img src="https://img.icons8.com/bubbles/50/000000/phone.png"/>
+            <div>
+            <p> +12 123 123</p>
+            <p> +12 123 123</p>
+            </div>
+            </div>
+            <div class="contact-col">
+            <h2>MAIL</h2>
+            <img src="https://img.icons8.com/bubbles/50/000000/apple-mail.png"/>
+            <div>
+            <p> abc@gmail.com</p>
+            <p> def@gmail.com</p>
+            </div>
+            </div>
+             <div class="contact-col">
+            <h2>INSTAGRAM</h2>
+            <img src="https://img.icons8.com/color/48/000000/instagram-new--v1.png"/>
+            <div>
+            <p>@_zephy_r</p>
+            </div>
+            </div>
+            <div class="contact-col">
+            <h2> ADDRESS </h2>
+            <img src="https://img.icons8.com/bubbles/50/000000/address.png"/>
+            <div>
+                <p> Kadavil house, vennala po, Arkakkadavu,<br> Cochin-28,Ernakulam,Kerala,India</p>
+            </div>
+            </div>
+            
+            </div>
+            
+        </section>
+        
+<!------footer-------->
+        
+ 
+       
+        
+ 
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+    <!-----------java scrip for toggle bar---------->    
+<script>
+  var navLinks=document.getElementById("navLinks")
+  function showMenu(){
+      navLinks.style.right="0";
+  }
+     function hideMenu(){
+      navLinks.style.right="-200px";
+  }
+</script>
+    </body>
+</html>
